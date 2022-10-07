@@ -33,5 +33,5 @@ Start the server
 
 ## Demo
 
-Insert gif or link to demo
+![](https://github.com/imageadhikari/MNIST/blob/main/demo.gif)
 
