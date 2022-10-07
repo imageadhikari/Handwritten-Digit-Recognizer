@@ -1,2 +1,37 @@
-# MNIST
-Neural Network for Multiclass classification of handwritten digits in the MNIST dataset.
+
+# MNIST Digit Recognizer
+
+A model that recognizes the digit you draw on the canvas.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/imageadhikari/MNIST.git
+```
+
+Go to the project directory
+
+```bash
+  cd MNIST
+```
+
+Install dependencies
+
+```bash
+  pip3 install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  python app.py
+```
+
+
+## Demo
+
+Insert gif or link to demo
+

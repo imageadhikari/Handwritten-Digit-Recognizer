@@ -11,9 +11,19 @@ def classify(image):
     pred = np.argmax(prediction)
     return pred
 
+title="Digit recognition app"
+description="A Neural Network model trained on MNIST dataset. Start by drawing a single digit, and let the model recognize it."
+
 draw = gr.Interface(fn=classify, 
              inputs="sketchpad",
-             outputs="label")
+             outputs="label",
+             title=title,
+             description=description,
+             )
 
 draw.launch(share=True)
+
+
+
+
 
