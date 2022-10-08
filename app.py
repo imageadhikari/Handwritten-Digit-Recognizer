@@ -2,7 +2,7 @@ import gradio as gr
 from tensorflow import keras
 import numpy as np
 
-model = keras.models.load_model("saved_model/")
+model = keras.models.load_model("savedmodel/saved_model.h5")
 
 def classify(image):
     im_reshape = image.reshape(1,784)
